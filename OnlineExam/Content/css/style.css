@@ -1,0 +1,32 @@
+body {
+    /* 	background: #000; */
+}
+
+img {
+    /*  display: block;*/
+    /*	float: left; */
+    /*  margin: 0 1px 0 0;*/
+}
+
+div[data-layer] {
+    background: black;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    left: 0;
+/*    height: 100vh;*/
+/*    width: 100vw*/
+}
+
+canvas[data-loading] {
+    /* background: #131c35 linear-gradient(#192853, #131c35); */
+    display: block;
+    float: left;
+    position: fixed;
+    user-select: none;
+    /* uncomment to test overlay */
+    /*  position: absolute;*/
+    /*  left: 0;*/
+    /*  opacity: 1;*/
+    /*  top: 0;*/
+}

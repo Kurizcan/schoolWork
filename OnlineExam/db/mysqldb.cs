@@ -9,7 +9,7 @@ namespace OnlineExam.db
     public class Mysqldb
     {
         private MySqlConnection conn;
-        protected string constr = "Server=46.101.35.132; User Id= root;Password= 123456; Persist Security Info=True;Database=examonline;";
+        protected string constr = "Server=IP; User Id= User;Password= xxxxx; Persist Security Info=True;Database=examonline;";
     
 
         public void Open()

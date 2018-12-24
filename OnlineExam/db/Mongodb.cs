@@ -10,7 +10,7 @@ namespace OnlineExam.db
 {
     public class Mongodb
     {
-        string url = "mongodb://root:123456@46.101.35.132:27017/JiaXiao_New?authSource=admin";
+        string url = "mongodb://user:password@IP:port/JiaXiao_New?authSource=admin";
         private static IMongoDatabase database = null;
         IMongoCollection<BsonDocument> collection = null;
         public Mongodb()
